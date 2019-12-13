@@ -6,18 +6,17 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "mocha ./functions/find-by/**/*.js",
+    "test": "find ./functions -name 'spec.js' | xargs mocha -R spec",
     "report": "find ./functions -name 'spec.js' | xargs mocha -R json > ./functions/report.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "xargs": "^1.1.3"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "mocha": "^6.2.2",
+    "mocha": "6.2.2",
     "nodemon": "2.0.1"
   }
 }
