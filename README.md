@@ -1,6 +1,11 @@
 # PokeDex API
 
-A "little" project for introducing you to API's, working on large code bases, TDD, and Node.js.  It's built around [Biuni's PokeDex Data Set](https://github.com/Biuni/PokemonGO-Pokedex/blob/master/pokedex.json).
+A project  built around [Biuni's PokeDex Data Set](https://github.com/Biuni/PokemonGO-Pokedex/blob/master/pokedex.json) as an introduction to API's, working on large code bases, TDD, and Node.js.
+
+
+To complete the projet "all" you have to do is complete the empty functions found in `/functions` directory.  The challenges themselves are at a JS-2/JS-3 level of difficulty so they will be a nice review of arrays, objects and array methods.  The biggest challenge will be learning how to debug & develop the functions in Node.js, run the tests, and use your functions from the server in the main `index.js` file.
+
+One of the main learning objective of this project is figuring out how to explore, understand, and run modular applications that you didn't write.  So even if you manage to pass all of the tests in a couple days, go back and practice runing the server.  Read through every file in this project, try adding routes, understand what each file does and how it relates to the application as a whole. The challenges themselves may be review but running the tests, using your functions from the server, and finding your way through this application are all Node.js level skills.
 
 Enjoy!
 

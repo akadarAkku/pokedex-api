@@ -1,8 +1,11 @@
 const type = (pokeArray, type) => {
-let results = pokeArray.filter(p => p.type.includes(type));
-
-results = results.map(p => ({ name: p.name, num: p.num }));
-
-return results;
+  let filteredArr = pokeArray.filter(item => item.type.includes(type));
+  filteredArr = filteredArr.map(element => ({
+    name: element.name,
+    num: element.num
+  }));
+  return filteredArr;
 };
+
 module.exports = type;
+
