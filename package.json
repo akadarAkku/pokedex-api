@@ -19,7 +19,12 @@
     "save": "^2.4.0"
   },
   "devDependencies": {
+
     "mocha": "^6.2.2",
     "nodemon": "2.0.1"
+
+    "mocha": "6.2.2",
+    "nodemon": "^2.0.1"
+
   }
 }
