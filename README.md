@@ -78,8 +78,7 @@ Before you start passing tests, you should install all dependencies and practice
 #### Install & Dependencies
 1. clone the repo
 2. `npm install`
-3. `npm install -g mocha` (if you don't have it)
-3. `npm install -g nodemon` (if you don't have it)
+3. `npm install -g mocha` (if you don't have it yet)
 
 #### Running the API
 * `npm run dev`
