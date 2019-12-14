@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "mocha ./functions/evolutions-of**/*.js",
+    "test": "mocha ./functions/evolutions-of/find-by**/*.js",
     "report": "find ./functions -name 'spec.js' | xargs mocha -R json > ./functions/report.json"
   },
   "author": "",
